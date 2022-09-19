@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestRunner(failed)">
+    <classes>
+      <class name="Testcases.validpostLogin">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.validpostLogin -->
+      <class name="Testcases.validDelete">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.validDelete -->
+      <class name="Testcases.validget">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.validget -->
+      <class name="Testcases.invalidpostRegistration">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.invalidpostRegistration -->
+      <class name="Testcases.validpostRegistration">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.validpostRegistration -->
+      <class name="Testcases.invalidSingleResource">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.invalidSingleResource -->
+      <class name="Testcases.validListResource">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.validListResource -->
+      <class name="Testcases.validpatchUpdate">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.validpatchUpdate -->
+      <class name="Testcases.invalidpostLoginTest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.invalidpostLoginTest -->
+      <class name="Testcases.validgetsingleuser">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.validgetsingleuser -->
+      <class name="Testcases.invalidSingleUser">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.invalidSingleUser -->
+      <class name="Testcases.validSingleResource">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.validSingleResource -->
+    </classes>
+  </test> <!-- TestRunner(failed) -->
+</suite> <!-- Failed suite [Suite] -->

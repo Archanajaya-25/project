@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestRunner">
+    <classes>
+      <class name="Testcases.validget"/>
+      <class name="Testcases.validgetsingleuser"/>
+      <class name="Testcases.validListResource"/>
+      <class name="Testcases.validSingleResource"/>
+      <class name="Testcases.validgetDelayedResponse"/>
+      <class name="Testcases.validpostCreate"/>
+      <class name="Testcases.validputUpdate"/>
+      <class name="Testcases.validDelete"/>
+      <class name="Testcases.validListResource"/>
+	  <class name="Testcases.invalidSingleUser"/>
+	  <class name="Testcases.invalidSingleResource"/>
+	  <class name="Testcases.validpatchUpdate"/>
+
+	  <class name="Testcases.validpostRegistration"/>
+	  <class name="Testcases.invalidpostRegistration"/>
+      <class name="Testcases.validpostLogin"/>
+      <class name="Testcases.invalidpostLoginTest"/>
+    </classes>
+  </test> <!-- TestRunner -->
+</suite> <!-- Suite -->
